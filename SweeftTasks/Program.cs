@@ -4,10 +4,10 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        //Console.WriteLine(IsPalindrome("repaper"));
-        //Console.WriteLine(MinSplit(120));
-        //Console.WriteLine(NotContains(new int[] { 1,2,3,5 }));
-        //Console.WriteLine(IsProperly("(()())"));
+        Console.WriteLine(IsPalindrome("repaper"));
+        Console.WriteLine(MinSplit(120));
+        Console.WriteLine(NotContains(new int[] { 1,2,3,5 }));
+        Console.WriteLine(IsProperly("(()())"));
         Console.WriteLine(CountVariants(5));
     }
 

@@ -13,9 +13,9 @@ internal class Program
 
         using var db = new AppDbContext(optionsBuilder);
 
-        var teacherService = new TeacherRepository(db);
+        var teacherRepository = new TeacherRepository(db);
 
-        var teachers = teacherService.GetAllTeachersByStudent("Giorgi");
+        var teachers = teacherRepository.GetAllTeachersByStudent("Giorgi");
 
         Console.WriteLine("Teachers who teach Giorgi:");
 

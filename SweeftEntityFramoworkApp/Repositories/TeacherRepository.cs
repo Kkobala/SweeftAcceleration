@@ -1,5 +1,6 @@
 ﻿using SweeftEntityFramoworkApp.Db;
 using SweeftEntityFramoworkApp.Models;
+using SweeftEntityFramoworkApp.Repositories;
 
 namespace SweeftEntityFramoworkApp.Repository
 {
